@@ -15,8 +15,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RetrofitB6">
         <activity
+            android:name=".FirebaseAuthB6"
+            android:exported="false" />
+        <activity
             android:name=".utils.ProductActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,8 +28,7 @@
         </activity>
         <activity
             android:name=".utils.MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true"></activity>
     </application>
+
 </manifest>
